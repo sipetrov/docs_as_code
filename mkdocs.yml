@@ -1,0 +1,15 @@
+site_name: Masterclass for Conference
+
+theme:
+  name: readthedocs
+  
+plugins:
+  - search:
+      lang: ["ru", "en"]
+  - include-markdown:
+      opening_tag: "{{"
+      closing_tag: "}}"
+  - exclude:
+      glob:
+        - Includes/*
+  - mermaid2
